@@ -1,17 +1,57 @@
-.side{
-    background: #1E213A no-repeat center;
-    background-image: linear-gradient(rgba(1, 1, 34, 0.9), rgba(1, 1, 34, 0.9)),
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+.container-sidebar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.side {
+  width: 100%;
+  background: #1e213a no-repeat center;
+  background-image: linear-gradient(rgba(1, 1, 34, 0.9), rgba(1, 1, 34, 0.9)),
     url(../images/Cloud-background.png);
-    height: 50vh;
+  height: 50vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  
+}
+
+.img-weather{
+    width: 150px;
+}
+
+.grade {
+  font-family: 'Raleway', sans-serif;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+}
+
+.clima{
+    font-size: 45px;
+    font-weight: lighter;
 }
 
 
-@media screen and (min-width:600px) {
-    .container-sidebar{
-        display: flex;
-    }
-    .side{
-        width: 30vw;
-        height: 100vh;
-    }
+@media screen and (min-width: 600px) {
+  .container-sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }

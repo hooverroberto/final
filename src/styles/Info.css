@@ -1,11 +1,14 @@
 .info{
     background: #100E1D;
     height: 50vh;
+    color: #fff;
+    font-size: 30px;
+    z-index: 999;
 }
 
 @media screen and (min-width:600px) {
     .container-infoweather{
-        display: flex;
+        display: flex;        
     }
 
     .info{
