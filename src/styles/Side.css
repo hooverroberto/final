@@ -1,0 +1,14 @@
+.side{
+    background: red;
+    height: 50vh;
+}
+
+@media screen and (min-width:600px) {
+    .container-sidebar{
+        display: flex;
+    }
+    .side{
+        width: 30vw;
+        height: 100vh;
+    }
+}
