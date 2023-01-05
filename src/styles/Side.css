@@ -1,7 +1,10 @@
 .side{
-    background: red;
+    background: #1E213A no-repeat center;
+    background-image: linear-gradient(rgba(1, 1, 34, 0.9), rgba(1, 1, 34, 0.9)),
+    url(../images/Cloud-background.png);
     height: 50vh;
 }
+
 
 @media screen and (min-width:600px) {
     .container-sidebar{
